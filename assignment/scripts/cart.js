@@ -35,3 +35,22 @@ function empty() {
 
 console.log('emptying basket, expect true:', empty());
 console.log(basket);
+
+console.log('***** Stretch Goals *****');
+
+const maxitems = 5;
+
+function isFull() {
+  if (basket.length < 5) {
+    console.log('You have room in your basket.');
+    return false;
+  } else {
+    console.log('Your basket is full!');
+    return true;
+  }
+}
+
+console.log('basket.length is:', basket.length);
+console.log('expect false if <5, true otherwise:', isFull());
+
+// Adding additional isFull functionality to addItem() function on line 7
