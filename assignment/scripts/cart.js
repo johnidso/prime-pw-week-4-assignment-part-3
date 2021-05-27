@@ -33,8 +33,8 @@ console.log(basket);
 // creating function listItems
 
 function listItems() {
-  for (i of basket) {
-    console.log(i);
+  for (let item of basket) {
+    console.log(item);
   }
 }
 
